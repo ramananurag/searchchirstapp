@@ -1,0 +1,45 @@
+<SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    theDate= new Date();
+    var day = theDate.getDate();
+    var year = theDate.getYear();
+    year = (year < 2000) ? year + 1900 : year;
+    var textdate = (theDate.getMonth() + 1) + '/' + theDate.getDate() + '/' + year;
+    var numquotes = 31;
+    quotes = new Array(numquotes+1);
+	
+    quotes[1] = "http://commons.wikimedia.org/wiki/File:Jesus_Christ_fragment.JPG";
+    quotes[2] = "http://www.flickr.com/photos/midiman/90232317/";
+    quotes[3] = "http://search.creativecommons.org/?q=536px-Bloch-SermonOnTheMount&sourceid=Mozilla-search";
+    quotes[4] = "http://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Murillo_-_St_Francis_of_Assisi_at_Prayer.JPG";
+    quotes[5] = "http://commons.wikimedia.org/wiki/File:WLA_metmuseum_Crucifix_ca_1180-1230.jpg";
+    quotes[6] = "http://commons.wikimedia.org/wiki/File:Herz-Jesu_Church,_Cologne,_statue_of_Jesus_Christ_,_Iven_1902.jpg";
+    quotes[7] = "http://commons.wikimedia.org/wiki/File:StJohnsAshfield_StainedGlass_GoodShepherd_Portrait.jpg";
+    quotes[8] = "http://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Our_Lady_of_the_Rosary_with_Saints.jpg";
+    quotes[9] = "http://www.flickr.com/photos/kj-an/2294604279/";
+    quotes[10] = "http://www.fotopedia.com/items/flickr-4161935408";
+    quotes[11] = "http://www.fotopedia.com/items/flickr-3203159795";
+    quotes[12] = "http://commons.wikimedia.org/wiki/File:Hombourg_Jesus.jpg";
+    quotes[13] = "http://commons.wikimedia.org/wiki/File:Jesus-Charle%27s_bridge.JPG";
+    quotes[14] = "http://commons.wikimedia.org/wiki/File:Jesus_Church_.JPG";
+    quotes[15] = "http://en.wikipedia.org/wiki/File:Dome_of_the_Holy_Sepulchre.jpg";
+    quotes[16] = "http://commons.wikimedia.org/wiki/File:Jesus-Steinbach-Seite.jpg";
+    quotes[17] = "http://commons.wikimedia.org/wiki/File:Wolketsweiler_%C3%96lberg_Detail_Jesus.jpg";
+    quotes[18] = "http://commons.wikimedia.org/wiki/File:Paris_P%C3%A8re_Lachaise401.JPG";
+    quotes[19] = "http://commons.wikimedia.org/wiki/File:Gross_stmartin_kreuzigungsgruppe_jesus.jpg";
+    quotes[20] = "http://commons.wikimedia.org/wiki/File:Jesus_at_St_Joseph_Oratory.jpg";
+    quotes[21] = "http://commons.wikimedia.org/wiki/File:Muenster-100725-16289-Jesus.jpg";
+    quotes[22] = "http://commons.wikimedia.org/wiki/File:Enfant_J%C3%A9sus_de_Prague_Joinville_200908_1.jpg";
+    quotes[23] = "http://commons.wikimedia.org/wiki/File:Sacred_heart_of_Jesus_Cordoba.jpg";
+    quotes[24] = "http://commons.wikimedia.org/wiki/File:Saint_Lawrence_crowned_by_Baby_Jesus_mg_0145.jpg";
+    quotes[25] = "http://commons.wikimedia.org/wiki/File:Jes%C3%BAs_en_Vos_conf%C3%ADo.jpg";
+    quotes[26] = "http://commons.wikimedia.org/wiki/File:WWI_cemetery_nr_225_-_Brzostek._Head_of_Jesus.jpg";
+    quotes[27] = "http://commons.wikimedia.org/wiki/File:Jesus_the_good_Shepherd.jpg";
+    quotes[28] = "http://commons.wikimedia.org/wiki/File:Barcelona_-_Catedral_018_-_Capilla_del_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs.JPG";
+    quotes[29] = "http://commons.wikimedia.org/wiki/File:Marols_-_Eglise_Saint-Pierre_-_Vitrail_du_Sacr%C3%A9_coeur_de_J%C3%A9sus.JPG";
+    quotes[30] = "http://commons.wikimedia.org/wiki/File:SCJ5.JPG";
+    quotes[31] = "http://commons.wikimedia.org/wiki/File:%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%81.JPG";
+	
+document.write('<a href=' + quotes[day] + '></a>');
+//  End -->
+    </script> 

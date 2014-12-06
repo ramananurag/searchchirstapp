@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Search Christ</title>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" type="image/gif" href="images/animated_favicon1.gif">
+<link rel="stylesheet" href="dropdown/dropdown.css" type="text/css" />
+<script type="text/javascript" src="dropdown/dropdown.js"></script>
+<script src="jquery.js"></script>
+
+<style type="text/css"> 
+A:link { text-decoration:none} A:visited { text-decoration:none}
+body {
+   margin: 0px auto;
+   padding: 0px;
+   font-family: Arial;
+   font-size: 1.0em;
+   text-align: left;
+   background: #fff;
+   color: #000;
+
+}
+div.wrapper {
+   width: 850px;
+   margin: 0px auto;
+   text-align: center;
+}
+img {
+   border: 0;
+}
+div.mainContainer {
+   
+   text-align: left;
+}
+div.content {
+   
+   padding: 0px 10px 0px 10px;
+   float: center;
+   font-size: 0.8em;
+}
+ 
+ .menu {
+    position:absolute;
+display:block;
+top:0px;
+font-size:13px;
+color:#fff;
+
+}
+ 
+#link1 {
+    z-index:12;
+    position:absolute;
+    width:285px;
+    height:25px;
+    top: 0px;
+    text-align:left;
+    right:0px;
+    font-size: 16px;
+    }
+   
+#links{
+    position:absolute;
+    width:100%;
+    height:25px;
+    z-index:1;
+    top:0px;
+    left:0px;
+	margin:0px;
+    font-size:12px;
+    background:url('images/header1.png');
+	background-repeat:repeat;
+	
+	
+    border-bottom: 1px solid #e3dee0;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	min-width:920px;
+}
+
+ 
+    #foocap{
+   position: absolute;
+    width: 62%;
+    top: 568px;
+    text-align:left;
+	left:19.5%;
+	font-size:12px;
+	z-index:-60;
+    }
+	
+	 #slide_bar{
+	 dispaly:none;
+    left:0px;
+    bottom:0px;
+    position:fixed;
+	}
+	#slide_bar1{
+	left:0px;
+	bottom:43%;
+	position:fixed;
+	}
+ 
+</style>
+</head>
+ 
+<body link="#49718c" alink="#49718c" vlink="#49718c">
+<!-- FAF9FA-->
+<script type="text/javascript"> 
+ 
+function init() {	
+
+		x = document.getElementById('test2');
+
+		if (document.getElementById("cse").firstChild.nodeName.toLowerCase() == "div") {
+			
+			$('<a href="#"><img id="small" src="images/small.png" style="float:left;"></a>').clone().insertBefore( "#cse input.gsc-input");
+			
+		} else {
+			setTimeout(function(){init()}, 500);
+		}
+}
+ 
+$(window).load(function(){init()});
+ 
+
+ 
+</script>
+ 
+ 
+ 
+  <div id="links" >
+<table class="menu">
+<tr>
+  <td><a style="color:#fff;background:none;text-decoration:none;"href="http://searchchrist.com">Web </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://images.google.com/">Images </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://video.google.com/">Videos </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://news.google.com/">News </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://maps.google.com/">Maps </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.facebook.com" target="_blank">Facebook </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.orkut.com" target="_blank">Orkut </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.twitter.com" target="_blank">Twitter </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.gmail.com" target="_blank">Gmail </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.yahoo.com" target="_blank">Yahoo </a>|</td>
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.hotmail.com" target="_blank">Hotmail </a>|</td>        
+  <td><a style="color:#fff;background:none;text-decoration:none;" href="http://www.wikipedia.org" target="_blank">Wikipedia </a>|</td>
+  <td class="dropdown">
+  <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Christian Sites</dt>
+  <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+    <ul>
+	<table>
+	<tr>
+	<td>
+      <a href="http://www.crosswalk.com" class="underline" target="_blank">Crosswalk.com</a> 
+      </td><td><a href="http://www.BibleGateway.com" class="underline" target="_blank">BibleGateway.com</a></td></tr>
+      <tr>
+	  <td><a href="http://www.Bible.cc" class="underline" target="_blank">Bible.cc</a></td>
+      <td><a href="http://www.Bible.org" class="underline" target="_blank">Bible.org</a></td></tr>
+	  <tr>
+	  <td><a href="http://www.BibleStudyTools.com" class="underline" target="_blank">BibleStudyTools.com</a></td>
+	  <td><a href="http://www.BlueLetterBible.org" class="underline" target="_blank">BlueLetterBible.org</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.StudyLight.org" class="underline" target="_blank">StudyLight.org</a></td>
+	  <td><a href="http://www.CCEL.org" class="underline" target="_blank">CCEL.org</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.Gospel.com" class="underline" target="_blank">Gospel.com</a></td>
+	  <td><a href="http://www.Christianity.com" class="underline" target="_blank">Christianity.com</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.Jesus.org" class="underline" target="_blank">Jesus.org</a></td>
+	  <td><a href="http://www.OnePlace.com" class="underline" target="_blank">OnePlace.com</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.ChristianAnswers.net" class="underline" target="_blank">ChristianAnswers.net</a></td>
+	  <td><a href="http://www.GotQuestions.org" class="underline" target="_blank">GotQuestions.org</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.SermonAudio.com" class="underline" target="_blank">SermonAudio.com</a></td>
+	  <td><a href="http://www.MoodyRadio.org" class="underline" target="_blank">MoodyRadio.org</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.GodTube.com" class="underline" target="_blank">GodTube.com</a></td>
+	  <td><a href="http://www.ChristianPost.com" class="underline" target="_blank">ChristianPost.com</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.ChristianityToday.com" class="underline" target="_blank">ChristianityToday.com</a></td>
+	  <td><a href="http://www.Christianet.com" class="underline" target="_blank">Christianet.com</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.BeliefNet.com" class="underline" target="_blank">BeliefNet.com</a></td>
+	  <td><a href="http://www.EWTN.com" class="underline" target="_blank">EWTN.com</a></td>
+	  </tr><tr>
+	  <td><a href="http://www.Catholic.com" target="_blank">Catholic.com</a></td>
+	  <td><a href="http://www.Catholic.net" target="_blank">Catholic.net</a></td>
+      </tr>
+	  </table>
+    </ul>
+  </dd>
+</dl></td>
+	
+    </tr>
+</table>
+
+
+
+              
+     <div id="link1">
+               <script language="javascript">
+            function setHomepage()
+            {	
+				alert("The security features in your browser may ask you to click on Allow to enable this.");
+                if (document.all)
+                {
+                    document.body.style.behavior='url(#default#homepage)';
+                    document.body.setHomePage('http://www.searchchrist.com');
+ 
+                }
+                else if (window.sidebar)
+                {
+                    if(window.netscape)
+                {
+                    try
+                { 
+                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+                } 
+                catch(e) 
+                { 
+                alert("\t\t\t\t\t To set this as homepage follow the instructions:- \n\n\n \t 1) Tools -> Options/Preferences -> General -> change homepage to - www.searchchrist.com \n\n \t\t\t\t\t\t\t\t\t or \n\n \t 2) Drag and drop the link icon in the Home icon"); 
+                }
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage','http://www.searchchrist.com');
+                }
+                }
+                </script>
+     <a style="color:#fff;background:none;text-decoration:none;" href ="#"  onclick="setHomepage();"><b>Set SearchChrist as Your Homepage</b></a>
+     </div>
+ 
+ 
+</div>
+ <script src="jquery.js" type="text/javascript"></script>
+<div id="test2" align="center" style="margin-top:30px; padding: 0 .5% .6% 0">
+ 
+    <SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    theDate= new Date();
+    var day = theDate.getDate();
+    var year = theDate.getYear();
+    year = (year < 2000) ? year + 1900 : year;
+    var textdate = (theDate.getMonth() + 1) + '/' + theDate.getDate() + '/' + year;
+    var numquotes = 31;
+    quotes = new Array(numquotes+1);
+    quotes[1] = "'I can do all things through Christ who strengthens me.' Philippians 4:13";
+    quotes[2] = "'But seek first his kingdom and his righteousness, and all these things will be given to you as well.' Matthew 6:33";
+    quotes[3] = "'Delight yourself in the LORD and he will give you the desires of your heart.' Psalms 37:4";
+    quotes[4] = "'You will keep in perfect peace him whose mind is steadfast, because he trusts in you.' Isaiah 26:3";
+    quotes[5] = "'Let us love, not in word or speech, but in truth and action.' John 3:18";
+    quotes[6] = "'And now abideth faith,hope, and love; these three, but the greatest of these is love.' Corinthians 13:13";
+    quotes[7] = "'May they who love you be like the sun when it rises in its strength.' Judges 5:31";
+    quotes[8] = "'The ear tests words as the tongue tastes food.' Job 34:3";
+    quotes[9] = "'The truth shall make you free.' John 8:32";
+    quotes[10] = "'The kingdom of Heaven is within you. Seek ye first the kingdom of Heaven and all things will be added unto you.' Jesus";
+    quotes[11] = "'For God so loved the world that he gave his one and only Son,that whoever believes in him shall not perish but have eternal life.' John 3:16";
+    quotes[12] = "'I have planted, Apollos watered; but God gave the increase.' Corinthians 3.6";
+    quotes[13] = "'For the fashion of this world passeth away.' Corinthians 7.31.";
+    quotes[14] = "'Wherefore let him that thinketh he standeth take heed lest he fall.' Corinthians 10.12";
+    quotes[15] = "'When I was a child I spake as a child.' Corinthians 13.11.";
+    quotes[16] = "'Be not deceived: evil communications corrupt good manners.' Corinthians 15.33.";
+    quotes[17] = "'Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about seeking whom he may devour.' Peter 5.8";
+    quotes[18] = "'For to me, to live is Christ and to die is gain.' Philippians 1:21";
+    quotes[19] = "'that at the name of Jesus every knee should bow, in heaven and on earth and under the earth.' Philippians 1:10 ";
+    quotes[20] = "'Not greedy of filthy lucre.' Timothy 3.3";
+    quotes[21] = "'Put on the full armor of God so that you can take your stand against the devil's schemes.' Ephesians 6:11";
+    quotes[22] = "'I have fought a good fight, I have finished my course, I have kept the faith.' Timothy 7.7";
+    quotes[23] = "'Gray hair is a crown of splendor; it is attained by a righteous life.' Proverbs 16:31";
+    quotes[24] = "'Taste and see that the LORD is good; blessed is the man who takes refuge in him.' Psalm 34:8";
+    quotes[25] = "'A friend loves at all times, and a brother is born for adversity.' Proverbs 17:17";
+    quotes[26] = "'The name of the Lord is a strong fortress; the godly run to him and are safe.' Proverbs 18:10";
+    quotes[27] = "'Greater love has no one than this, that he lay down his life for his friends.' John 15:13";
+    quotes[28] = "'If God is for us, who can ever be against us?' Romans 8:31";
+    quotes[29] = "'Blessed are the pure in heart, for they will see God.' Matthew 5:8";
+    quotes[30] = "'Fight the good fight of the faith. Take hold of the eternal life to which you were called.' Timothy 6:12";
+    quotes[31] = "'Hope deferred makes the heart sick, but a longing fulfilled is a tree of life.' Proverbs 13:12";
+ 
+    document.write('<SIZE="4px">' + quotes[day] + '</FONT><br>');
+//  End -->
+    </script>             
+   
+</div>
+<div id="final">
+ 
+ 
+<div align="center" style="z-index:0; position:absolute; margin:auto; margin-top:4px; padding:0px; height:25px; width:100%;">
+    <div id="cse" style="width:70%; height:30px">Loading</div>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+      google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('000907687512028309356:swvimres08o');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+	var options = new google.search.DrawOptions();
+	options.setAutoComplete(true);
+    customSearchControl.draw('cse', options);
+  }, true);
+    </script>
+ 
+    <style type="text/css">
+      .gsc-control-cse {
+    font-family: Arial, sans-serif;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 0px;
+   
+  }
+  form.gsc-search-box
+  { padding: 0px;
+  }
+  input.gsc-input {
+    border-color: #777777;
+     height: 20px;
+	 width: 75%;
+	 float:right;
+  }
+ 
+ 
+  .gsc-resultsHeader
+  {
+      border-bottom:none;
+  }
+ 
+  input.gsc-search-button {
+    border-color: #ffffff;
+    background-color: #85a266;
+  }
+  .gsc-tabHeader.gsc-tabhInactive {
+    border-color: #777777;
+    background-color: #777777;
+  }
+  .gsc-tabHeader.gsc-tabhActive {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gsc-tabsArea {
+    border-color: #333333;
+  }
+  .gsc-webResult.gsc-result {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    text-align:left;
+    }
+  .gsc-webResult.gsc-result:hover {
+    border-color: #ffffff;
+    background-color: #FFFFFF;
+  }
+  .gs-webResult.gs-result a.gs-title:link,
+  .gs-webResult.gs-result a.gs-title:link b {
+    color: #000099;
+   
+  }
+  .gs-webResult.gs-result a.gs-title:visited,
+  .gs-webResult.gs-result a.gs-title:visited b {
+    color: #6600cc;
+  }
+  .gs-webResult.gs-result a.gs-title:hover,
+  .gs-webResult.gs-result a.gs-title:hover b {
+    color: #3366ff;
+  }
+  .gs-webResult.gs-result a.gs-title:active,
+  .gs-webResult.gs-result a.gs-title:active b {
+    color: #777777;
+  }
+  .gsc-cursor-page {
+    color: #000099;
+  }
+  a.gsc-trailing-more-results:link {
+    color: #000099;
+  }
+  .gs-webResult .gs-snippet {
+    color: #000000;
+  }
+  .gs-webResult div.gs-visibleUrl {
+    color: #006600;
+  }
+  .gs-webResult div.gs-visibleUrl-short {
+    color: #006600;
+  }
+  .gs-webResult div.gs-visibleUrl-short {
+    display: none;
+    color: #006600;
+  }
+  .gs-webResult div.gs-visibleUrl-long {
+    display: block;
+    color: #006600;
+   
+  }
+  .gsc-cursor-box {
+    border-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-page {
+    border-color: #777777;
+    background-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-page.gsc-cursor-current-page {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gs-promotion {
+    border-color: #c0c0c0;
+    background-color: #E6E6E6;
+  }
+  .gs-promotion a.gs-title:link,
+  .gs-promotion a.gs-title:link *,
+  .gs-promotion .gs-snippet a:link {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:visited,
+  .gs-promotion a.gs-title:visited *,
+  .gs-promotion .gs-snippet a:visited {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:hover,
+  .gs-promotion a.gs-title:hover *,
+  .gs-promotion .gs-snippet a:hover {
+    color: #444444;
+  }
+  .gs-promotion a.gs-title:active,
+  .gs-promotion a.gs-title:active *,
+  .gs-promotion .gs-snippet a:active {
+    color: #00CC00;
+  }
+  .gs-promotion .gs-snippet,
+  .gs-promotion .gs-title .gs-promotion-title-right,
+  .gs-promotion .gs-title .gs-promotion-title-right *  {
+    color: #333333;
+  }
+  .gs-promotion .gs-visibleUrl,
+  .gs-promotion .gs-visibleUrl-short {
+    color: #006600;
+  }
+ </style>
+     
+</div>
+ 
+<div class="wrapper">
+   <div class="mainContainer">
+      <div class="content">
+        <div align="center" style=" margin-top:43px;  position:absolute;z-index:-50; ">
+		<div style="border: 3px solid #c7c7c7;">
+		<div style="border: 2px solid #d6d6d6;">
+				<SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    theDate= new Date();
+    var day = theDate.getDate();
+    var year = theDate.getYear();
+    year = (year < 2000) ? year + 1900 : year;
+    var textdate = (theDate.getMonth() + 1) + '/' + theDate.getDate() + '/' + year;
+   
+ 
+    document.write('<img ID="myImage" NAME="myImage" src="images/'+day+'.jpg" >');
+	
+//  End -->
+    </script>   
+	</div>
+	</div>
+	
+<SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    theDate= new Date();
+    var day = theDate.getDate();
+    var year = theDate.getYear();
+    year = (year < 2000) ? year + 1900 : year;
+    var textdate = (theDate.getMonth() + 1) + '/' + theDate.getDate() + '/' + year;
+    var numquotes = 31;
+    quotes = new Array(numquotes+1);
+    quotes[1] = "http://commons.wikimedia.org/wiki/File:Jesus_Christ_fragment.JPG";
+    quotes[2] = "http://www.flickr.com/photos/midiman/90232317/";
+    quotes[3] = "http://search.creativecommons.org/?q=536px-Bloch-SermonOnTheMount&sourceid=Mozilla-search";
+    quotes[4] = "http://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Murillo_-_St_Francis_of_Assisi_at_Prayer.JPG";
+    quotes[5] = "http://commons.wikimedia.org/wiki/File:WLA_metmuseum_Crucifix_ca_1180-1230.jpg";
+    quotes[6] = "http://commons.wikimedia.org/wiki/File:Herz-Jesu_Church,_Cologne,_statue_of_Jesus_Christ_,_Iven_1902.jpg";
+    quotes[7] = "http://commons.wikimedia.org/wiki/File:StJohnsAshfield_StainedGlass_GoodShepherd_Portrait.jpg";
+    quotes[8] = "http://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Our_Lady_of_the_Rosary_with_Saints.jpg";
+    quotes[9] = "http://www.flickr.com/photos/kj-an/2294604279/";
+    quotes[10] = "http://www.fotopedia.com/items/flickr-4161935408";
+    quotes[11] = "http://www.fotopedia.com/items/flickr-3203159795";
+    quotes[12] = "http://commons.wikimedia.org/wiki/File:Hombourg_Jesus.jpg";
+    quotes[13] = "http://commons.wikimedia.org/wiki/File:Jesus-Charle%27s_bridge.JPG";
+    quotes[14] = "http://commons.wikimedia.org/wiki/File:Jesus_Church_.JPG";
+    quotes[15] = "http://en.wikipedia.org/wiki/File:Dome_of_the_Holy_Sepulchre.jpg";
+    quotes[16] = "http://commons.wikimedia.org/wiki/File:Jesus-Steinbach-Seite.jpg";
+    quotes[17] = "http://commons.wikimedia.org/wiki/File:Wolketsweiler_%C3%96lberg_Detail_Jesus.jpg";
+    quotes[18] = "http://commons.wikimedia.org/wiki/File:Paris_P%C3%A8re_Lachaise401.JPG";
+    quotes[19] = "http://commons.wikimedia.org/wiki/File:Gross_stmartin_kreuzigungsgruppe_jesus.jpg";
+    quotes[20] = "http://commons.wikimedia.org/wiki/File:Jesus_at_St_Joseph_Oratory.jpg";
+    quotes[21] = "http://commons.wikimedia.org/wiki/File:Muenster-100725-16289-Jesus.jpg";
+    quotes[22] = "http://commons.wikimedia.org/wiki/File:Enfant_J%C3%A9sus_de_Prague_Joinville_200908_1.jpg";
+    quotes[23] = "http://commons.wikimedia.org/wiki/File:Sacred_heart_of_Jesus_Cordoba.jpg";
+    quotes[24] = "http://commons.wikimedia.org/wiki/File:Saint_Lawrence_crowned_by_Baby_Jesus_mg_0145.jpg";
+    quotes[25] = "http://commons.wikimedia.org/wiki/File:Jes%C3%BAs_en_Vos_conf%C3%ADo.jpg";
+    quotes[26] = "http://commons.wikimedia.org/wiki/File:WWI_cemetery_nr_225_-_Brzostek._Head_of_Jesus.jpg";
+    quotes[27] = "http://commons.wikimedia.org/wiki/File:Jesus_the_good_Shepherd.jpg";
+    quotes[28] = "http://commons.wikimedia.org/wiki/File:Barcelona_-_Catedral_018_-_Capilla_del_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs.JPG";
+    quotes[29] = "http://commons.wikimedia.org/wiki/File:Marols_-_Eglise_Saint-Pierre_-_Vitrail_du_Sacr%C3%A9_coeur_de_J%C3%A9sus.JPG";
+    quotes[30] = "http://commons.wikimedia.org/wiki/File:SCJ5.JPG";
+    quotes[31] = "http://commons.wikimedia.org/wiki/File:%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%81.JPG";
+	quotes2 = new Array(numquotes+1);
+	quotes2[1] = "The picture on top of the Eastern Orthodox altar on Calvary (Golgotha)  where  Jesus is believed to have died on the cross. ";
+	quotes2[2] = "Christus Statue: Marble  statue of Jesus Christ originally crafted in 1821 by Danish Sculptor, Bertel Thorvaldsen";
+	quotes2[3] = "Sermon on the Mount";
+	quotes2[4] = "Bartolomé Esteban Murillo - St Francis of Assisi at Prayer (Oil on canvas, 182 × 129 cm)";
+	quotes2[5] = "Crucifix: Metropolitan Museum of Art  ";
+	quotes2[6] = "Statue of Jesus Christ, Herz-Jesu Church, Cologne ";
+	quotes2[7] = "Stained glass at St John the Baptist\'s Anglican Church , Ashfield, New South Wales. Illustrates Jesus\' description of himself,  'I am the Good Shepherd'";
+	quotes2[8] = "Our Lady of the Rosary with Saints, Brooklyn Museum";
+	quotes2[9] = "Statue of Jesus in a blue robe ";
+	quotes2[10] = "Dolls showcasing the nativity scene ";
+	quotes2[11] = "Stained glass showing the nativity scene";
+	quotes2[12] = " Jesus statue at Hombourg";
+	quotes2[13] = "Jesus surrounded by Hebrew letters - monument on the Charles bridge";
+	quotes2[14] = "A statue of Jesus Christ at a church in India";
+	quotes2[15] = "Interior of the dome of the Holy Sepulchre (Jerusalem, Israel).";
+	quotes2[16] = "Built by Francis Greulich in 1889.Steinbach, 97900 Külsheim, Germany";
+	quotes2[17] = "Horgenzell, place of worship 'Föhrenbühl in Wolketsweiler: Mount of Olives'";
+	quotes2[18] = "Leaded glass window on the Graveyard Père Lachaise in Paris";
+	quotes2[19] = "Wooden Christ from Basilika St. Vitus, Ellwangen";
+	quotes2[20] = "Jesus at St Joseph Oratory, Montreal.";
+	quotes2[21] = "Crucifixion on Horsteberg behind the Duomo of sculptures";
+	quotes2[22] = "Statue of the Infant Jesus of Prague";
+	quotes2[23] = "Stained glass window of the sacred Heart of Jesus Christ in the former Mosque (Cathedral) of Cordoba, Spain";
+	quotes2[24] = "Saint Lawrence crowned by Baby Jesus, Claude de Jongh, oil on canvas, 1634";
+	quotes2[25] = "Jesus the Merciful - I trust in you ";
+	quotes2[26] = "World War I cemetery nr 225 - Brzostek, Poland.";
+	quotes2[27] = "Jesus, the Good Shepherd window at St. Matthew's Lutheran Church, Charleston, South Carolina";
+	quotes2[28] = "Chapel of the Sacred Heart of Jesus in the Cathedral of Barcelona";
+	quotes2[29] = " Sacred Heart of Jesus-  St. Peter\'s Church,Marols ";
+	quotes2[30] = "Porcelien statue of Jesus in a white robe";
+	quotes2[31] = "Painting of Jesus Christ on public display at Berezhany town museum, in Berezhany";
+	
+    document.write('<i><FONT Family="Tahoma" SIZE="1px"><a href="'+ quotes[day] +'" target="_blank">' + quotes2[day] + '</a></FONT></i>');
+ 
+//  End -->
+    </script> 
+ 
+	 </div>
+    
+     
+   
+   </div>
+   </div>
+</div>
+	<div id="foocap" >
+		<script language="javascript">
+			<!--
+
+			var state = 'none';
+
+			function showhide(layer_ref) {
+
+			if (state == 'block') {
+			state = 'none';
+			}
+			else {
+			state = 'block';
+			}
+			if (document.all) { //IS IE 4 or 5 (or 6 beta)
+			eval( "document.all." + layer_ref + ".style.display = state");
+			}
+			if (document.layers) { //IS NETSCAPE 4 or below
+			document.layers[layer_ref].display = state;
+			}
+			if (document.getElementById &&!document.all) {
+			hza = document.getElementById(layer_ref);
+			hza.style.display = state;
+			}
+			}
+			//-->
+		</script> 
+		<p><a href="#" onclick="showhide('div1');">About Us</a></p>
+		<div id="div1" style="display: none;"><p>SearchChrist.com is dedicated to providing great web search results with a
+daily Christian Message.  Search is powered by Google, and we show a new
+Christian Image and Bible Quote everyday.<br /><br />
+
+Please share SearchChrist with your friends and family via the Facebook
+and Twitter Buttons at the bottom left.  Send us your feedback via the
+button on the left and middle of the screen.</p></div> 
+	<br></div>
+		
+	<table id="slide_bar1">
+	<tr><td>
+	<a href ="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dG1PVGdWOU96TFZqV3dmQ3p2ZHNSbHc6MQ" target="_blank">
+	<img src="images/feedback.png"/></a>
+	</td></tr>
+	</table> 
+	<table id="slide_bar">
+ 
+	<tr><td>
+	<a href="http://www.facebook.com/sharer.php?u=http://facebook.com/pages/SearchChristcom/185699611480948" target="_blank">
+		<img src="images/fblogo.png"/></a>
+		</td></tr>
+		 
+		 
+		 
+		<tr><td><a href="http://twitter.com/home?status=Google powered search with a Daily Christian Message+Image http://www.searchchrist.com/post-url" title="Click to share this post on Twitter" target="_blank"><img src="images/witter.png"></a>
+		 
+		</td></tr>
+		<tr><td><a href="http://twitter.com/searchchrist4u" title="Follow me on Twitter" target="_blank"><img src="images/twitter.png"alt="Twitter Icon" border="0"/></a>
+		</td></tr>
+		<tr><td>
+		<div id="fb-root" style="align:right" ></div><script src="http://connect.facebook.net/en_US/all.js#appId=209774909053850&amp;xfbml=1"></script><fb:like href="https://www.facebook.com/pages/SearchChristcom/185699611480948" send="false" layout="button_count" width="200" colorscheme="dark" show_faces="false" font="arial"></fb:like>
+		 
+		</td></tr>
+		 
+		</table>   
+
+ 
+</body>
+ 
+</html>
