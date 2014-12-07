@@ -1,0 +1,36 @@
+# About # {#about}
+[AirportCode](http://airportcode.riobard.com) is a simple web service to lookup [IATA airport code](http://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code) by name and/or location. AirportCode is built on top of [Google App Engine](http://code.google.com/appengine/). The data is from Wikipedia. The complete source code of the current implementation is availabe at [GitHub](http://github.com/riobard/AirportCode).
+
+
+# API # {#api}
+AirportCode provides a RESTful API using XML as the output format. For example, you can get an XML document about Frankfurt International Airport (IATA code: FRA) from the command line by adding fmt=XML to the query string:
+
+    $ curl "http://airportcode.riobard.com/airport/FRA?fmt=XML"
+    <?xml version="1.0" encoding="UTF-8"?>
+    <airport>
+    <code type="IATA">FRA</code>
+    <name>Frankfurt International Airport</name>
+    <location>Frankfurt, Germany</location>
+    </airport>
+
+Similarly, you can also get a list of airports matching some keywords:
+
+    $ curl "http://airportcode.riobard.com/search?q=frankfurt&fmt=XML"
+    <?xml version="1.0" encoding="UTF-8"?>
+    <airports>
+      <airport>
+        <code type="IATA">FRA</code>
+        <name>Frankfurt International Airport</name>
+        <location>Frankfurt, Germany</location>
+      </airport>
+
+      <airport>
+        <code type="IATA">HHN</code>
+        <name>Frankfurt-Hahn Airport</name>
+        <location>Rhineland-Palatinate, Germany</location>
+      </airport>
+    </airports>
+
+
+# Contact #  {#contact}
+Email <a href="mailto:me@riobard.com">me@riobard.com</a>, or visit <a href="http://riobard.com">Riobard.com</a>.
